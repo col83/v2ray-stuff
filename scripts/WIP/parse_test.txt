@@ -1,0 +1,5 @@
+# date
+curl -I -L "https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-windows-64-desktop.zip" | rg "date:" | powershell -Command "$input | Select-Object -First 1 | ForEach-Object { ($_ -split ':', 2)[1].Trim() }"
+
+# direct arctifact link
+curl -I -L "https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-windows-64-desktop.zip" | rg "location: https://" | powershell -Command "$input | Select-Object -First 1 | ForEach-Object { $_.Split(' ')[1] }"

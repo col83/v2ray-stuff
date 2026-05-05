@@ -1,0 +1,26 @@
+{
+  "hosts": {
+    "dns.google": "8.8.8.8",
+    "proxy.example.com": "127.0.0.1"
+  },
+  "servers": [
+    {
+      "address": "https://dns.google/dns-query",
+      "queryStrategy": "UseIPv4",
+      "domains": [
+        "geosite:google"
+      ],
+      "unexpectedIPs": [
+        "geoip:private"
+      ],
+      "skipFallback": true
+    }
+  ],
+  "queryStrategy": "UseIPv4",
+  "disableFallback": true,
+  "disableCache": false,
+  "serveStale": true,
+  "serveExpiredTTL": 3600,
+  "useSystemHosts": false,
+  "tag": "dns_inbound"
+}

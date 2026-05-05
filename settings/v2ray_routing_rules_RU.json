@@ -1,0 +1,144 @@
+[
+  {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block",
+    "enabled": true,
+    "remarks": "block udp"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "bittorrent direct"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "geoip private direct"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "geosite private direct"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ru"
+    ],
+    "enabled": true,
+    "remarks": "geoip ru direct"
+  },
+  {
+    "port": "",
+    "network": "",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:2gis.com",
+      "domain:2gis.ru",
+      "domain:2ip.ru",
+      "domain:alfabank.ru",
+      "domain:alfabank.servicecdn.ru",
+      "domain:alfabank.st",
+      "domain:avito.ru",
+      "domain:avito.st",
+      "domain:banki.ru",
+      "domain:cbr.ru",
+      "domain:cdn-tinkoff.ru",
+      "domain:cdn-vk.ru",
+      "domain:cdnflow.ru",
+      "domain:dns-shop.ru",
+      "domain:gazprombank.ru",
+      "domain:gosuslugi.ru",
+      "domain:gov.ru",
+      "domain:gpb.ru",
+      "domain:gu-st.ru",
+      "domain:habr.com",
+      "domain:habrastorage.org",
+      "domain:mail.ru",
+      "domain:mradx.net",
+      "domain:nalog.gov.ru",
+      "domain:nalog.ru",
+      "domain:naydex.net",
+      "domain:ok.ru",
+      "domain:ozon.ru",
+      "domain:ozone.ru",
+      "domain:ozonru.me",
+      "domain:pochta.ru",
+      "domain:raiffeisen.ru",
+      "domain:rbc.ru",
+      "domain:rbk.ru",
+      "domain:reg.ru",
+      "domain:rshb.ru",
+      "domain:rtbcdn.ru",
+      "domain:rutube.ru",
+      "domain:sber.ru",
+      "domain:sberbank.ru",
+      "domain:sovcombank.ru",
+      "domain:t-static.ru",
+      "domain:tbank.ru",
+      "domain:tinkoff.ru",
+      "domain:vk-portal.net",
+      "domain:vk.com",
+      "domain:vtb.ru",
+      "domain:ya.ru",
+      "domain:yandex.cloud",
+      "domain:yandex.com",
+      "domain:yandex.ru",
+      "domain:yandexcloud.net",
+      "domain:yastatic.net",
+      "domain:yndx.net"
+    ],
+    "enabled": true,
+    "remarks": "separate ru direct"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:api.github.com",
+      "domain:gist.github.com",
+      "domain:github-releases.githubusercontent.com",
+      "domain:github.com",
+      "domain:github.io",
+      "domain:githubassets.com",
+      "domain:githubusercontent.com",
+      "domain:gitlab.com",
+      "domain:gitlab.net",
+      "domain:objects.githubusercontent.com"
+    ],
+    "enabled": true,
+    "remarks": "devel domains direct"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "domain:android.com",
+      "domain:fonts.google.com",
+      "domain:fonts.googleapis.com",
+      "domain:redd.it",
+      "domain:reddit.com",
+      "domain:redditmedia.com",
+      "domain:redditstatic.com"
+    ],
+    "enabled": true,
+    "remarks": "direct"
+  },
+  {
+    "port": "0-65535",
+    "network": "",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "all in proxy"
+  }
+]
