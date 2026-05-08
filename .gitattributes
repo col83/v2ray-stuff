@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Auto detect text files and perform LF or CRLF normalization
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+*.sh text eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+*.md text eol=lf
