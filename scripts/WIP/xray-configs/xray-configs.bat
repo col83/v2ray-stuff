@@ -2,6 +2,7 @@
 
 cd /d "%~dp0"
 
-powershell -ExecutionPolicy Bypass -File "xray-configs.ps1"
+set "EXEC_SCRIPT=xray-configs"
+powershell -ExecutionPolicy Bypass -File "%EXEC_SCRIPT%.ps1"
 
 pause

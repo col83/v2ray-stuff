@@ -126,6 +126,7 @@
       "domain:android.com",
       "domain:fonts.google.com",
       "domain:fonts.googleapis.com",
+      "domain:nexusmods.com",
       "domain:redd.it",
       "domain:reddit.com",
       "domain:redditmedia.com",
@@ -133,6 +134,14 @@
     ],
     "enabled": true,
     "remarks": "direct"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:files.nexus-cdn.com"
+    ],
+    "enabled": true,
+    "remarks": "proxy separate"
   },
   {
     "port": "0-65535",
