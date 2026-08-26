@@ -126,14 +126,17 @@
     "outboundTag": "direct",
     "domain": [
       "domain:android.com",
+      "domain:f-droid.org",
       "domain:fonts.google.com",
       "domain:fonts.googleapis.com",
+      "domain:googlevideo.com",
       "domain:gstatic.com",
       "domain:nexusmods.com",
       "domain:redd.it",
       "domain:reddit.com",
       "domain:redditmedia.com",
-      "domain:redditstatic.com"
+      "domain:redditstatic.com",
+      "domain:youtube.com"
     ],
     "enabled": true,
     "remarks": "direct"
