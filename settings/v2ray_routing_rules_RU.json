@@ -7,6 +7,14 @@
     "remarks": "block udp"
   },
   {
+    "outboundTag": "block",
+    "domain": [
+      "domain:mozilla.net"
+    ],
+    "enabled": true,
+    "remarks": "block domain"
+  },
+  {
     "port": "",
     "outboundTag": "direct",
     "protocol": [
@@ -126,6 +134,8 @@
     "outboundTag": "direct",
     "domain": [
       "domain:android.com",
+      "domain:dl.google.com",
+      "domain:dns.google",
       "domain:f-droid.org",
       "domain:fonts.google.com",
       "domain:fonts.googleapis.com",
@@ -136,6 +146,8 @@
       "domain:reddit.com",
       "domain:redditmedia.com",
       "domain:redditstatic.com",
+      "domain:sourceforge.net",
+      "domain:wikipedia.org",
       "domain:youtube.com"
     ],
     "enabled": true,
